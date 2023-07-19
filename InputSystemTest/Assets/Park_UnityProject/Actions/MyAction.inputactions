@@ -1,0 +1,57 @@
+{
+    "name": "MyAction",
+    "maps": [
+        {
+            "name": "AxeControllerMap",
+            "id": "b915c27d-2ff4-470e-a715-362cacf9313a",
+            "actions": [
+                {
+                    "name": "AxeEat",
+                    "type": "Button",
+                    "id": "80555068-90a1-4a4d-af38-c37ea9bf8295",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9cb91672-8fc5-4931-ae79-f2287772605c",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AxeController",
+                    "action": "AxeEat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72dd9a4a-1a36-4b87-b150-ddfe2d2c8db7",
+                    "path": "<Keyboard>/#(Q)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AxeEat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "AxeController",
+            "bindingGroup": "AxeController",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
